@@ -1,0 +1,38 @@
+{
+  "name": "login-and-register",
+  "version": "1.0.0",
+  "description": "login register with Node.js/MySQL (passport middleware and AJAX)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "keywords": [
+    "login",
+    "register",
+    "node.js",
+    "mysql",
+    "passport",
+    "ajax"
+  ],
+  "author": "QuangNhat",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.4.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.22"
+  }
+}
